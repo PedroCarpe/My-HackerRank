@@ -1,6 +1,6 @@
 #comments to make ease of reading and refactoring
 
-def gradingStudents(grades):
+def grading_students(grades):
     
     for g in grades:
         counter = 1
@@ -20,4 +20,4 @@ def gradingStudents(grades):
         #    print(f'Value out of range {g}')
 
     return grades
-print(gradingStudents([73,67,38,33]))      
+print(grading_students([73,67,38,33]))      
